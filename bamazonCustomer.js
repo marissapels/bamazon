@@ -63,12 +63,12 @@ function buyProduct(){
 					for (var i=0; i<results.length; i++){
 						if (+results[i].id === +answer.choice){
 							chosenItem=results[i];
-							console.log(chosenItem);
+							// console.log(chosenItem);
 						}
 					}
 
 					if (answer.quantityItem <= chosenItem.stock_quantity){
-						console.log("SOLD!!!");
+						console.log("SOLD!!!\n");
 						connection.query("UPDATE products SET ? WHERE ?",
 							[
 								{

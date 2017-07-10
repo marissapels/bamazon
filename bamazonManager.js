@@ -127,7 +127,7 @@ function addProduct(){
 			stock_quantity: answer.quantity
 		}, function(error,results){
 			if (error) throw error;
-			console.log("Product Added!");
+			console.log("Product Added!\n");
 			showOptions();
 		});
 	});

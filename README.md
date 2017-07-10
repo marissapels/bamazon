@@ -40,7 +40,7 @@ If Add a New Product is selected, the user will be asked for the product name, t
 
 ## bamazonSupervisor.js
 
-When the bamazonSupervisor.js is ran in the terminal, the uswer will be asked whether they would like to:
+When the bamazonSupervisor.js is ran in the terminal, the user will be asked whether they would like to:
 * View Product Sales by Department
 * Create New Department
 
